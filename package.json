@@ -1,0 +1,31 @@
+{
+  "name": "glyph",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Glyph — a real-time, in-browser framework for 3D geometry synthesis from SVG artwork.",
+  "engines": {
+    "node": ">=20.3.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "typecheck": "astro sync && tsc --noEmit"
+  },
+  "dependencies": {
+    "@astrojs/react": "^4.3.0",
+    "@tailwindcss/vite": "^4.1.0",
+    "astro": "^5.13.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tailwindcss": "^4.1.0",
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@types/three": "^0.170.0",
+    "typescript": "^5.6.0"
+  }
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#ec4899"/>
+    </linearGradient>
+    <radialGradient id="core" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fde68a"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </radialGradient>
+  </defs>
+  <path fill="url(#ring)" fill-rule="evenodd" d="M100 10a90 90 0 1 0 0 180a90 90 0 1 0 0-180zm0 28a62 62 0 1 1 0 124a62 62 0 1 1 0-124z"/>
+  <path fill="#0f172a" d="M100 58l12 28 30 3-23 20 7 30-26-16-26 16 7-30-23-20 30-3z"/>
+  <circle fill="url(#core)" cx="100" cy="100" r="14"/>
+</svg>

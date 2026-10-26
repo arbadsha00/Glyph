@@ -1,0 +1,24 @@
+---
+import Layout from '../layouts/Layout.astro';
+import GlyphApp from '../components/GlyphApp';
+---
+
+<Layout
+  title="Glyph — SVG to 3D in your browser"
+  description="Glyph converts SVG artwork into interactive 3D geometry in real time. Style it, orbit it, and export a PNG — entirely client-side."
+>
+  <!-- The editor is a single React island; everything else is static HTML. -->
+  <GlyphApp client:only="react">
+    <div
+      slot="fallback"
+      style="display:grid;place-items:center;height:100dvh;color:#a1a1aa;font:14px system-ui,sans-serif"
+    >
+      Loading Glyph…
+    </div>
+  </GlyphApp>
+  <noscript>
+    <p style="padding:2rem;font:16px system-ui,sans-serif">
+      Glyph needs JavaScript and WebGL to render 3D models in your browser.
+    </p>
+  </noscript>
+</Layout>
