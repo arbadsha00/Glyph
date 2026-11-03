@@ -3,7 +3,7 @@
 **A real-time framework for 3D geometry synthesis from Scalable Vector Graphics.**
 
 Drop in an SVG and Glyph parses its paths, extrudes each one into a 3D mesh, and renders it live in the browser with physically-based materials and HDR environment lighting. Restyle with original colors, a flat color, gradient, or texture; fine-tune PBR material properties; switch between HDR environments; orbit around it; and export as PNG, turntable video, or a full 3D glTF model. Everything runs client-side — files never leave the browser.
-Live Link : https://glyphbd.netlify.app/
+## Live Link : https://glyphbd.netlify.app/
 Project report / PRD: [`docs/Glyph_PRD.pdf`](docs/Glyph_PRD.pdf) — Tejgaon College, Dept. of CSE.
 
 System design & architecture: [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) — complete module walkthrough.
